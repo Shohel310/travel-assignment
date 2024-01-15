@@ -1,9 +1,10 @@
 
-/* {
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;800&display=swap');
+*{
     margin: 0;
     padding: 0;
     border: 2px solid tomato;
-} */
+} 
 *body{
     font-family: 'Mulish', sans-serif;
 }
@@ -41,4 +42,23 @@
     list-style: none;
     text-decoration: none;
     gap: 44px;
+}
+/* banner starts here */
+/* .banner{
+    margin-top: 60px;
+    margin-left: 127px;
+    margin-right: 127px;
+    width: max-content;
+    padding-left: 120px;
+} */
+.banner-container{
+    background-image: url(./B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 135px;
+    margin-right: 135px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    outline: 2px solid yellowgreen;
+    
 }
