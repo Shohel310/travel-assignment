@@ -60,16 +60,38 @@
 
 /* banner starts here */
 
+.banner-button{
+    width: 80%;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
 .menu{
     display: flex;
     justify-content: center;
     list-style: none;
     text-decoration: none;
     gap: 44px;
-    color: #FFF;
-
+    
 }
-
+.btn{
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: #FFF;
+    color: #424247;
+    border-radius: 10px;
+    padding: 10px 0;
+    
+}
+.btn-primary{
+    background-color: #FF5400;
+    padding: 10px 0;
+    border-radius: 15px;
+    width: 100px;
+}
 
 .banner-container{
     background-image: url(../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png);
@@ -91,5 +113,27 @@
 .banner-description{
     padding: 24px;
     color: #FFF;
+    margin-bottom: 20px;
+}
+/* tour section */
+.tour-section{
+    width: 80%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.font-size{
+    font-size: 40px;
+}
+.tour-content{
+    width: 50%;
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.tour-sec-pic{
+    width: 50%;
+    height: 540px;
 }
 
