@@ -116,7 +116,7 @@
     margin-bottom: 20px;
 }
 /* tour section */
-.tour-section{
+.tour-section, .perfect-section{
     width: 65%;
     margin: 80px auto;
     display: flex;
