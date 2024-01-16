@@ -116,7 +116,7 @@
     margin-bottom: 20px;
 }
 /* tour section */
-.tour-section, .perfect-section{
+.tour-section{
     width: 65%;
     margin: 80px auto;
     display: flex;
@@ -135,5 +135,24 @@
 .tour-sec-pic{
     width: 50%;
     height: 540px;
+}
+/* Tour section */
+.perfect-section{
+    width: 65%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.perfect-content{
+    width: 50%;
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.perfect-sec-pic{
+    width: 50%;
+    height: 540px;
+    margin-right: 40px;  
 }
 
