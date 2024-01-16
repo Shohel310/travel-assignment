@@ -5,4 +5,8 @@
     .tour-section{
         flex-direction: column;
     }
+    .perfect-section{
+        flex-direction: column;
+        flex-direction: wrap;
+    }
 }
