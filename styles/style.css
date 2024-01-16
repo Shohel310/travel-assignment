@@ -3,7 +3,8 @@
 *{
     margin: 0;
     padding: 0;
-    border: 2px solid tomato;
+    box-sizing: border-box;
+    /* border: 2px solid tomato; */
 } 
 *body{
     font-family: 'Mulish', sans-serif;
@@ -11,54 +12,84 @@
 .span{
     color:  #FF5400;
 }
-.travel-image{
-    /* width: 48px;
-    height: 56px; */
-    /* height: min-content;
-    width: 50%; */
-}  
+/* nav bar starts here */
 .nav-bar{
+    max-width: 1420px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 80px;
 }
+/* nav-left */
 .nav-left{
+    width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content:left;
     align-items: center;
     margin-left: 127px;
     gap: 16px;
 }
-.travel-txt{
-    height: fit-content;
-    /* width: 50%; */
+.nav-left img{
+    width: 30px;
 }
+.nav-left travel-txt{
+    height: 100%;
+    font-size: 880px;
+    font-weight: 800px;
+    margin: 0;
+    padding: 0;
+}
+/* nav-right */
+
 .nav-right{
+    width: 50%;
     display: flex;
-    margin-right: 127px;
+    text-decoration: none;
+    margin-right: 2px;
+    gap: 44px;
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
+.nav-right a{
+    text-decoration: none;
+}
+/* nav ends here */
+
+/* banner starts here */
+
 .menu{
     display: flex;
+    justify-content: center;
     list-style: none;
     text-decoration: none;
     gap: 44px;
+    color: #FFF;
+
 }
-/* banner starts here */
-/* .banner{
-    margin-top: 60px;
-    margin-left: 127px;
-    margin-right: 127px;
-    width: max-content;
-    padding-left: 120px;
-} */
+
+
 .banner-container{
-    background-image: url(./B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image: url(../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png);
     text-align: center;
-    margin-top: 20px;
-    margin-left: 135px;
-    margin-right: 135px;
-    padding: 20px;
-    background-repeat: no-repeat;
+    margin-top: 2px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-repeat: no-repeat; 
     outline: 2px solid yellowgreen;
-    
+    height: 500px;
 }
+.banner-title{
+    font-size: 64px;
+    font-weight: 800px;
+    align-items: center;
+    color: #FFF;
+    padding-top: 110px;
+}
+.banner-description{
+    padding: 24px;
+    color: #FFF;
+}
+
